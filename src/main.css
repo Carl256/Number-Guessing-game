@@ -1,0 +1,58 @@
+.game {
+    border: 1px solid #efefef;
+    width: 30%;
+    padding: 2.5rem 4rem;
+    margin: 3rem auto;
+}
+
+.game-title {
+    font-size: 2.5rem;
+    font-weight: bold;
+    text-align: center;
+}
+
+.game__reset-btn {
+    margin-top: 0;
+}
+
+.previous__guesses,
+.guesses__message {
+    margin-top: 1rem;
+    /* display: none; */
+}
+
+/* .game__reset-btn,
+.previous__guesses,
+.guesses__message {
+    display: none;
+} */
+
+.guesses__message {
+    padding: .25rem 0.15rem;
+    color: #fff;
+}
+
+.guesses {
+    display: flex;
+}
+
+.guesses__list {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    list-style: none;
+    padding: 0;
+
+}
+
+.guesses__list::before {
+    content: "Previous Guesses: ";
+    width: auto;
+    height: auto;
+    padding-right: .5rem;
+}
+
+.guesses__list__item {
+    margin: 0 auto;
+    padding: 0.25rem 0.15rem;
+}
