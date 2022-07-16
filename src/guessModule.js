@@ -11,7 +11,7 @@ function addIncorrectGuessToListOfPreviousGuesses(guessedValue, listOfPreviousGu
 // function to display the list of previous guesses
 function displayListOfPreviousGuesses(list, arg) {
     list.forEach((guess) => {
-        // if a duplicate exists, don't rerender it to the again in the same element
+        // if a duplicate exists, don't rerender it to the again the same element
         if (arg.innerText.includes(guess)) {
             return;
         } else {
